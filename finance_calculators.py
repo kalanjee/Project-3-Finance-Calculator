@@ -30,7 +30,7 @@ elif var == "bond":
     i = annual_rate / 12                                     #Dividing the annual interest rate by 12 to get the monthly rate
     n = int(float(input("\n""Enter the number of years: ")) * 12)
     repayment = round((i * pv)/(1-(1+i)**(-n)),2)
-    output3 = f"You will have to repay ${repayment} every month for {n} months."
+    output3 = f"You will have to repay ${repayment} every month for {n} months. Please contact an adviser on 0207 222 165 to discuss your circumstances before applying."
     print("\n"+ output3)
 else:
     print("Incorrect selection. Refresh and try again.")    #As we have not learned how to loop yet.
