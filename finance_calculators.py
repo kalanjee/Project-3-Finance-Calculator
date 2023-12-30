@@ -13,7 +13,7 @@ var = input("Enter either 'investment' or 'bond' from the menu above to proceed:
 
 if var == "investment":
     p = int(input("\n""How much money are you depositing (USD)? "))
-    r = (float(input("\n""Enter the rate of interest: "))) / 100
+    r = (float(input("\n""Please enter the interest rate: "))) / 100
     t = int(input("\n""How many years would you like to invest for? "))
     interest = input("\n""Do you want simple or compound interest? Reply 'simple' or 'compound': ")
     if interest == "simple":
